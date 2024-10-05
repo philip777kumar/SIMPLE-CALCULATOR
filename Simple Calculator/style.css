@@ -1,0 +1,65 @@
+.container {
+    background-color: black;
+    width: 370px;
+    height: 485px;
+    border-radius: 7px;
+    text-align: center;
+    padding: 10px 0px;
+
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+button {
+    width: 75px;
+    height: 75px;
+    border-color: transparent;
+    margin: 3px 3px;
+    border-radius: 55%;
+    font-size: 37.5px;
+    background-color: rgb(38, 38, 38);
+    color: white;
+   
+}
+
+.spb {
+    width: 165px;
+    height: 67.5px;
+    border-color: transparent;
+    margin: 3px 3px;
+    border-radius: 30px;
+    font-size: 37.5px;
+    background-color: rgb(255, 170, 0);
+    color: rgb(255, 255, 255);
+}
+.spb:active{
+    background-color: white;
+    color: rgb(255, 170, 0);
+}
+#display {
+
+    width: 330px;
+    height: 75px;
+    border-radius: 5px;
+    margin: 3px 3px;
+    background-color: rgb(174, 174, 174);
+    font-size: 70px;
+    color: rgb(15, 14, 14);
+    
+    
+}
+
+.maincon {
+    display: flex;
+    align-items: center;
+    justify-content: centers;
+}
+button:active{
+    background-color: rgb(102, 102, 102);
+    
+}
